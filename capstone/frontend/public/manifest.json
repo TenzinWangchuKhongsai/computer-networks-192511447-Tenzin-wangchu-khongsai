@@ -1,0 +1,23 @@
+{
+  "name": "SmartOffice IoT Control Platform",
+  "short_name": "SmartOffice",
+  "description": "Design and Simulation of an Intelligent IoT-Based Smart Office Network and Energy Optimization System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e40af",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "lang": "en"
+}
