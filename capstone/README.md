@@ -5,7 +5,6 @@
 **Student Name:** Tenzin Wangchu Khongsai  
 **Register Number:** 192511447  
 **Team Number:** 10  
-**Project Record:** 24  
 
 ---
 
@@ -98,33 +97,7 @@ $$\text{SENSE} \longrightarrow \text{UNDERSTAND} \longrightarrow \text{RESPOND} 
 - **Events & Alerts:** Historical log of all occupancy changes, device state updates, and automation rule triggers.
 - **Simulation Control Center:** Start, pause, reset, step, adjust simulation speed (0.5× to 10×), and toggle Auto-Simulation mode.
 - **Presentation Mode:** One-click academic presentation mode for clean faculty demonstrations.
-
----
-
-## 🔬 Demonstration Guide (Faculty Presentation)
-
-To perform a demonstration during evaluation:
-
-1. Open the application at [http://localhost:5173](http://localhost:5173).
-2. Go to **Simulation Control** and click **Start** (or enable **Auto-Simulation Mode**).
-3. Navigate to **Rooms** and select **Room 01**.
-4. Click **ENTER ROOM**:
-   - Occupancy sensor changes to `Detected`.
-   - Automation engine evaluates conditions.
-   - Required devices (e.g. Light or Fan) switch ON automatically.
-   - Room power draw increases in real time.
-   - Event log records the automated action.
-5. Adjust the **Temperature** slider above 26°C:
-   - Cooling unit activates automatically.
-6. Click **LEAVE ROOM**:
-   - Occupancy sensor changes to `Not Detected`.
-   - Empty room rule triggers, turning OFF all active devices.
-   - Power consumption drops back down.
-7. Open **Energy Analytics** to show the calculated energy savings curve.
-8. Go to **Settings** and toggle **Presentation Mode** for an expanded presentation UI.
-
----
-
+- 
 ## 📡 REST API Overview
 
 | Endpoint | Method | Description |
